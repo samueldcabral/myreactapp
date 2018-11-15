@@ -31,8 +31,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Welcome to My First React App!</h1>
-        <p>My Children!</p>
+        <h2>Simple Test App</h2>
         <Ninjas ninjas={this.state.ninjas} deleteNinja={this.deleteNinja}/>
         <br></br>
         <AddNinja addNinja={this.addNinja} />
